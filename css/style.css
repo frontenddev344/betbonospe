@@ -701,6 +701,7 @@ section.inner-bnr.viajeros {
     top: 10px;
     right: 10px;
     cursor: pointer;
+    display: none;
 }
 
 input.search-field.traveltour-title-font {
