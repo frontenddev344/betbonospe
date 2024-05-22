@@ -620,3 +620,7 @@ section.encuentres {
 section.inner-bnr.lujo {
     background: green !important;
 }
+
+section.inner-bnr.bb {
+    background: red;
+}
