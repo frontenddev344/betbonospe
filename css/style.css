@@ -562,7 +562,24 @@ section.myForm-box {
 }
 
 section.inner-bnr.europa {
-    background: red;
+    background: url(../images/hoteles-con-casinos/Hotels-Europa.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.inner-bnr {
+    position: relative;
+    z-index: 1;
+}
+
+section.inner-bnr::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000094;
+    z-index: -1;
 }
 
 .casinos-text h3 {
@@ -618,11 +635,20 @@ section.encuentres {
 
 /*  */
 section.inner-bnr.lujo {
-    background: green !important;
+    background: url(../images/hotel-lujo/Hoteles-Lujo.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 section.inner-bnr.bb {
-    background: red;
+    background: url(../images/bb/B&B.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section.inner-bnr.accesibles{
+    background: url(../images/accesibles/Hoteles-accesibles.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .popups {
