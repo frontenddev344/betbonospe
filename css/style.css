@@ -663,7 +663,7 @@ input.search-field.traveltour-title-font {
     width: 100%;
     border-width: 0px 0px 3px;
     font-size: 40px;
-    padding: 0px 120px 25px 0px;
+    padding: 20px 120px 22px 0px;
     line-height: 48px;
     letter-spacing: 0.5px;
     color: var(--white);
@@ -674,12 +674,16 @@ input.search-field.traveltour-title-font {
     font-size: 55px;
     position: absolute;
     right: 30px;
-    top: 20px;
+    top: 4px;
     line-height: 48px;
     width: 48px;
     text-align: center;
     cursor: pointer;
     color: #fff;
+}
+
+input.search-field.traveltour-title-font::placeholder {
+    color: var(--white);
 }
 
 form.search-form {
@@ -690,4 +694,13 @@ input.search-submit {
     position: absolute;
     top: 24px;
     right: 87px;
+}
+
+.popups-content span.close-btn:hover {
+    color: #fff;
+}
+
+body#viajeros .casino-img img {
+    height: 600px;
+    object-fit: cover;
 }
