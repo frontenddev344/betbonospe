@@ -83,6 +83,15 @@
     .gdlr-core {
         margin-bottom: 30px;
     }
+
+    .iner-heading h2 {
+        font-size: 40px;
+
+    }
+
+    .iner-heading p {
+        font-size: 22px;
+    }
 }
 
 @media only screen and (max-width: 575px) {}
