@@ -231,6 +231,15 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/is-sticky.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if the modal has been shown before
+            if (!localStorage.getItem('modalShown')) {
+                $('#myModal').modal('show'); // Trigger the modal
+                localStorage.setItem('modalShown', true); // Set flag to indicate modal has been shown
+            }
+        });
+    </script>
 </body>
 
 </html>
