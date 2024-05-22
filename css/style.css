@@ -650,6 +650,11 @@ section.inner-bnr.accesibles{
     background-position: center;
     background-size: cover;
 }
+section.inner-bnr.viajeros{
+    background: url(../images/viajeros/Traveler.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .popups {
     display: none;
