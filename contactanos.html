@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Betbonospe | Contactanos </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <div class="navigation page-header">
+            <div class="container">
+                <div class="navigation-inner">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="sidenavs" id="mySidenavs">
+                            <span class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></span>
+                            <ul class="menu">
+                                <li><a href="index.html" class="active">Hogar</a></li>
+                                <li class="dropdown-box"> <a>Hoteles en Europa <i
+                                            class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-content">
+                                        <li><a href="hoteles-con-casinos.html">Hoteles con Casinos</a></li>
+                                        <li><a href="hoteles de-lujo.html">Hoteles de Lujo</a></li>
+                                        <li><a href="b&b.html">B&B</a></li>
+                                        <li><a href="hoteles-accesibles.html">Hoteles accesibles</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="tip-de-viajeros.html">Tip de Viajeros</a></li>
+                                <li><a class="serach-bar"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            </ul>
+                            <div id="popup" class="popup">
+                                <div class="popup-content">
+                                    <span class="close-btn">&times;</span>
+                                    <h2>Search</h2>
+                                    <!-- Add your search form or content here -->
+                                    <input type="text" placeholder="Search...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="toggle-bar">
+                            <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+    </header>
+    <!-- Header section -->
+
+    <!--  -->
+    <section class="inner-bnr">
+        <div class="container">
+            <div class="iner-heading">
+                <h2>Contáctanos </h2>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <section class="nosotros">
+        <div class="container">
+            <div class="nosotros-text">
+                <p>¿Está pensando en viajar a un hotel casino en Europa? Nuestro objetivo es asegurarnos de que su viaje
+                    salga bien y que pase un tiempo increíble en Europa. Aquí está la información de contacto:
+                </p>
+                <h4>Información del contacto: </h4>
+                <p>Correo electrónico: comuníquese con nuestro equipo dedicado en </p>
+                <p><span>Redes sociales :</span> síganos en <a href="#">Twitter</a>, <a href="#">Facebook</a> e <a
+                        href="#">Instagram</a> para obtener las ofertas más recientes, consejos de viaje y lo más
+                    destacado de Europa.
+                </p>
+                <p><span>Visítenos :</span> Le invitamos a pasar por nuestra oficina para tener una conversación en
+                    persona. Nuestro acogedor personal está siempre disponible para hablar sobre sus planes de
+                    vacaciones en casinos en Europa y ofrecerle consejos personalizados.
+                </p>
+                <p><span>Servicio al Cliente :</span> Queremos que su viaje a Europa sea fácil y divertido, es por eso
+                    que contamos con un personal comprometido de representantes de servicio al cliente. Estamos aquí
+                    para ayudarle con cualquier pregunta que pueda tener en el camino, ya sean hoteles con casino o no.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="myForm-box">
+        <div class="container">
+            <div class="myForminner">
+
+                <h3>Contáctanos </h3>
+
+                <form id="myForm" action="/submit" method="post">
+                    <div class="form-inner">
+                        <label for="name">Nombre *</label>
+                        <input type="text" id="name" name="name" autocomplete="off">
+                        <div id="nameError" class="error"></div>
+                    </div>
+                    <div class="form-inner">
+                        <label for="last_name">Apellido*</label>
+                        <input type="text" id="last_name" name="last_name" autocomplete="off">
+                        <div id="last_nameError" class="error"></div>
+                    </div>
+
+                    <div class="form-inner">
+                        <label for="email">Correo electrónico*</label>
+                        <input type="email" id="email" name="email" autocomplete="off">
+                        <div id="emailError" class="error"></div>
+                    </div>
+
+                    <div class="form-inner">
+                        <label for="message">Mensaje*</label>
+                        <textarea id="message" name="message" rows="5" autocomplete="off"></textarea>
+                        <div id="messageError" class="error"></div>
+                    </div>
+                    <div class="btn-submit">
+                        <button type="button" onclick="validateForm()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="images/logo/footer-logo.png" alt="">
+                            </a>
+                            <p>Bienvenido a Betbonospe Te recomendamos los mejores <span> HOTELES EN EUROPA</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="menu-footer">
+                            <h3>menú</h3>
+                            <ul>
+                                <li><a href="index.html">Hogar</a></li>
+                                <li><a href="hoteles-con-casinos.html">Hoteles con Casinos</a></li>
+                                <li><a href="hoteles de-lujo.html">Hoteles de Lujo</a></li>
+                                <li><a href="b&b.html">B&B</a></li>
+                                <li><a href="hoteles-accesibles.html">Hoteles accesibles</a></li>
+                                <li><a href="tip-de-viajeros.html">Tip de Viajeros</a></li>
+                                <li><a href="contactanos.html">Contactanos</a></li>
+                                <li><a href="politica-de-privacidad.html">Politica de Privacidad</a></li>
+                                <li><a href="terminos-y-condiciones.html">Terminos-y-condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget-box">
+                            <h3>PONERSE EN CONTACTO
+                            </h3>
+                            <div class="textwidget">
+                                <p>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </p>
+                                <p><a href="mailto:info@betbonospe.com">info@betbonospe.com</a></p>
+                                <p>© Derechos de autor Betbonospe 2024.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/is-sticky.js"></script>
+</body>
+
+</html>
