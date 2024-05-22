@@ -618,7 +618,19 @@ section.legendario {
 .ubicado {
     height: 100%;
     background: var(--white);
-    box-shadow: 0px 15px 31px rgb(0 0 0 / 6%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ubicado-img {
+    overflow: hidden;
+}
+
+.ubicado-img img {
+    transition: all 0.3s linear;
+}
+
+.ubicado-img img:hover {
+    transform: scale(1.2);
 }
 
 .ubicado-text {
@@ -645,12 +657,14 @@ section.inner-bnr.bb {
     background-position: center;
     background-size: cover;
 }
-section.inner-bnr.accesibles{
+
+section.inner-bnr.accesibles {
     background: url(../images/accesibles/Hoteles-accesibles.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 }
-section.inner-bnr.viajeros{
+
+section.inner-bnr.viajeros {
     background: url(../images/viajeros/Traveler.jpeg)no-repeat;
     background-position: center;
     background-size: cover;
