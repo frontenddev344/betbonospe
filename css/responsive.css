@@ -54,6 +54,17 @@
     section.banner {
         margin-top: 67px;
     }
+
+    .dropdown-content {
+
+        position: static;
+        display: none !important;
+
+    }
+
+    ul.menu li:hover ul.dropdown-content {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
