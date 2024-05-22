@@ -624,3 +624,70 @@ section.inner-bnr.lujo {
 section.inner-bnr.bb {
     background: red;
 }
+
+.popups {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popups-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #070506;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+input.search-field.traveltour-title-font {
+    background: transparent;
+    width: 100%;
+    border-width: 0px 0px 3px;
+    font-size: 40px;
+    padding: 0px 120px 25px 0px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    outline: none;
+}
+
+.traveltour-top-search-close {
+    font-size: 55px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    line-height: 48px;
+    width: 48px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+form.search-form {
+    position: relative;
+}
+
+input.search-submit {
+    position: absolute;
+    top: 24px;
+    right: 87px;
+}
