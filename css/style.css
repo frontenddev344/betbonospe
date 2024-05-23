@@ -75,7 +75,6 @@ ul.dropdown-content li a {
     font-family: "Open Sans", sans-serif;
     text-transform: capitalize;
     letter-spacing: 1.5px;
-    cursor: pointer;
 }
 
 .navigation div#mySidenavs ul li a:hover {
@@ -637,7 +636,7 @@ section.legendario {
     padding: 24px;
 }
 
-.legendario-wrapper .row .col-lg-4{
+.legendario-wrapper .row .col-lg-4 {
     margin-bottom: 30px;
 }
 
@@ -686,7 +685,6 @@ section.inner-bnr.viajeros {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #070506;
     padding: 20px;
     border-radius: 5px;
     width: 100%;
@@ -694,6 +692,7 @@ section.inner-bnr.viajeros {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.88);
 }
 
 .close-btn {
@@ -750,6 +749,11 @@ body#viajeros .casino-img img {
     height: 600px;
     object-fit: cover;
 }
+
 .legendario-wrapper .row .col-lg-6 {
     margin-bottom: 30px;
+}
+
+li.dropdown-box>a {
+    cursor: auto;
 }

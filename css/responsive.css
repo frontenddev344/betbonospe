@@ -72,13 +72,21 @@
 
     input.search-field.traveltour-title-font {
         font-size: 30px;
-       
+
 
     }
 
     .traveltour-top-search-close {
         font-size: 30px;
         top: 19px;
+    }
+
+    .build-wrapper .row {
+        justify-content: center;
+    }
+
+    .build-wrapper {
+        margin-bottom: 0px;
     }
 }
 
