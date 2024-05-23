@@ -637,7 +637,7 @@ section.legendario {
     padding: 24px;
 }
 
-.legendario-wrapper .row .col-lg-4.col-md-6 {
+.legendario-wrapper .row .col-lg-4{
     margin-bottom: 30px;
 }
 
@@ -749,4 +749,7 @@ input.search-submit {
 body#viajeros .casino-img img {
     height: 600px;
     object-fit: cover;
+}
+.legendario-wrapper .row .col-lg-6 {
+    margin-bottom: 30px;
 }
