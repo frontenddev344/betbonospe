@@ -65,6 +65,20 @@
     ul.menu li:hover ul.dropdown-content {
         display: block !important;
     }
+
+    .navigation div#mySidenavs ul li a:hover {
+        color: inherit;
+    }
+
+    input.search-field.traveltour-title-font {
+
+        font-size: 30px;
+
+    }
+
+    .traveltour-top-search-close {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
