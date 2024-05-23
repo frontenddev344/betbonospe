@@ -618,6 +618,7 @@ section.legendario {
     height: 100%;
     background: var(--white);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 .ubicado-img {
@@ -633,7 +634,12 @@ section.legendario {
 }
 
 .ubicado-text {
-    padding: 24px;
+    padding: 24px 24px 120px;
+}
+
+.discover-here {
+    position: absolute;
+    bottom: 20px;
 }
 
 .legendario-wrapper .row .col-lg-4 {
